@@ -39,7 +39,7 @@ These are the tested build profiles, not a promise of compatibility with every l
 | Java | 25 | 25 |
 | Loader | Fabric Loader 0.19.5 | NeoForge 26.3.0.99 |
 | Required API | Fabric API 0.164.0+26.3 | Included NeoForge platform; no Fabric API |
-| Validation status | Unit, server and in-world graphics tests | Native server tests and client startup smoke; in-world client sign-off pending |
+| Validation status | Unit, server and in-world graphics tests | Native server tests and client startup smoke |
 
 No settings library or configuration screen is required. Forge, Quilt and other Minecraft versions are not supported claims.
 
