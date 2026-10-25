@@ -9,7 +9,7 @@ Preview enchanting-table offers before spending levels and lapis. Hover an offer
 Choose one asset:
 
 - `mrransazenchantreveal-0.1.0+mc26.3-fabric.jar` — Fabric Loader 0.19.5 and Fabric API 0.164.0+26.3.
-- `mrransazenchantreveal-0.1.0+mc26.3-neoforge.jar` — NeoForge 26.3.0.99; experimental.
+- `mrransazenchantreveal-0.1.0+mc26.3-neoforge.jar` — NeoForge 26.3.0.99.
 
 Both builds target Minecraft 26.3 and Java 25. `SHA256SUMS.txt` contains the asset hashes. Do not install both loader jars together.
 
