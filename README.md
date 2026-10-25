@@ -2,7 +2,7 @@
 
 ![Enchant Decrypt icon](icon.png)
 
-Enchant Decrypt by MR Ransaz is a passive Minecraft mod that previews enchanting-table offers before you spend your levels and lapis. Hover an offer to see the predicted enchantments, using Minecraft's own names and level formatting. It can reconstruct results with only the client installed on a vanilla server, gaining certainty as you manually try different items; when a compatible server also has the mod, its authoritative exact preview takes priority. Fabric is the established implementation; the NeoForge build is experimental and still needs in-world client compatibility sign-off.
+Enchant Decrypt by MR Ransaz is a passive Minecraft mod that previews enchanting-table offers before you spend your levels and lapis. Hover an offer to see the predicted enchantments, using Minecraft's own names and level formatting. It can reconstruct results with only the client installed on a vanilla server, gaining certainty as you manually try different items; when a compatible server also has the mod, its authoritative exact preview takes priority. Fabric is the established implementation; the NeoForge build established too.
 
 ## What it does
 
@@ -48,7 +48,7 @@ No settings library or configuration screen is required. Forge, Quilt and other 
 Download the latest build from the **Releases section of this repository** (right sidebar, or the Releases tab). Choose the jar for your loader:
 
 - **Fabric:** `mrransazenchantreveal-0.1.0+mc26.3-fabric.jar`
-- **NeoForge, experimental:** `mrransazenchantreveal-0.1.0+mc26.3-neoforge.jar`
+- **NeoForge:** `mrransazenchantreveal-0.1.0+mc26.3-neoforge.jar`
 
 Release assets include `SHA256SUMS.txt` for integrity checking. If the Releases section is empty, no GitHub release has been published yet. Prepared copies are included in this repository's `release/` folder. Do not install both loader jars together.
 
@@ -66,14 +66,13 @@ Release assets include `SHA256SUMS.txt` for integrity checking. If the Releases 
 - Enchanting changes the player seed. Previous calibration cannot predict the next seed.
 - Reconstruction assumes vanilla selection rules and synchronized data. Server-only changes, custom enchanting menus or unusual mod hooks may prevent a preview or produce behavior outside that model.
 - Datapack and registered-item fixtures have automated coverage; arbitrary enchantment mods, tooltip mods, custom fonts and remote modpacks do not have universal compatibility sign-off.
-- NeoForge remains experimental: native server parity and client startup checks passed, but live client tooltips, exact networking and vanilla-server fallback still need manual in-world sign-off.
 - Very tall or unavailable results fall back to vanilla. A partial list never presents an arbitrary candidate as certain.
 
 ## FAQ
 
 **Does the server need the mod?**
 
-No for client reconstruction. Yes for the server-authoritative exact mode. A server without the mod can still be used for client inference, subject to the vanilla-model limits above; NeoForge's live client path remains experimental.
+No for client reconstruction. Yes for the server-authoritative exact mode. A server without the mod can still be used for client inference, subject to the vanilla-model limits above.
 
 **Why do books show more than my pickaxe?**
 
