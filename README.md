@@ -1,8 +1,19 @@
 # Enchant Decrypt
 
 ![Enchant Decrypt icon](icon.png)
+**Modrinth:** waiting for approval
 
-Enchant Decrypt by MR Ransaz is a passive Minecraft mod that previews enchanting-table offers before you spend your levels and lapis. Hover an offer to see the predicted enchantments, using Minecraft's own names and level formatting. It can reconstruct results with only the client installed on a vanilla server, gaining certainty as you manually try different items; when a compatible server also has the mod, its authoritative exact preview takes priority. Fabric is the established implementation; the NeoForge build established too.
+Enchant Decrypt by MR Ransaz is a passive Minecraft mod that previews enchanting-table offers before you spend your levels and lapis. Hover an offer to see the predicted enchantments, using Minecraft's own names and level formatting. It can reconstruct results with only the client installed on a vanilla server, gaining certainty as you manually try different items; when a compatible server also has the mod, its authoritative exact preview takes priority. Fabric and NeoForge builds are available.
+
+## Screenshots
+
+English tooltip:
+
+![Enchant Decrypt tooltip in English](screenshot-en.png)
+
+Russian tooltip:
+
+![Enchant Decrypt tooltip in Russian](screenshot-ru.png)
 
 ## What it does
 
@@ -37,9 +48,9 @@ These are the tested build profiles, not a promise of compatibility with every l
 | --- | --- | --- |
 | Minecraft | 26.3 | 26.3 |
 | Java | 25 | 25 |
-| Loader | Fabric Loader 0.19.5 | NeoForge 26.3.0.99 |
-| Required API | Fabric API 0.164.0+26.3 | Included NeoForge platform; no Fabric API |
-| Validation status | Unit, server and in-world graphics tests | Native server tests and client startup smoke |
+| Loader | Fabric | NeoForge |
+| Required API | Fabric API | None |
+| Validation status | Unit, server and in-world graphics tests; manual singleplayer and vanilla-server checks by the author | Native server tests and client startup smoke; manual singleplayer and vanilla-server checks by the author |
 
 No settings library or configuration screen is required. Forge, Quilt and other Minecraft versions are not supported claims.
 
@@ -50,7 +61,7 @@ Download the latest build from the **Releases section of this repository** (righ
 - **Fabric:** `mrransazenchantreveal-0.1.0+mc26.3-fabric.jar`
 - **NeoForge:** `mrransazenchantreveal-0.1.0+mc26.3-neoforge.jar`
 
-Release assets include `SHA256SUMS.txt` for integrity checking. If the Releases section is empty, no GitHub release has been published yet. Prepared copies are included in this repository's `release/` folder. Do not install both loader jars together.
+Release assets include `SHA256SUMS.txt` for integrity checking. If the Releases section is empty, no GitHub release has been published yet.
 
 ## Installation
 
@@ -106,4 +117,4 @@ Enchant Decrypt is distributed under the [MIT License](LICENSE). The icon is han
 
 ## Development disclosure
 
-The mod was developed with AI coding assistance from **OpenAI Codex**. Design, testing and verification are led by the author, **MR Ransaz**. This disclosure concerns code assistance; the supplied icon is the author's handmade artwork.
+The mod's code and documentation were developed with AI assistance from **OpenAI Codex**. Design, testing and verification are led by the author, **MR Ransaz**. The icon is the author's handmade artwork.
